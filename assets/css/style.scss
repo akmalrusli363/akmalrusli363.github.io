@@ -1,0 +1,137 @@
+---
+---
+
+@import 'jekyll-theme-cayman-blog';
+@import 'font-sets.scss';
+
+// Text in Navbar
+$text-color: #fff;
+
+.page-header {
+  display: grid;
+  background-image: url("../bg-from-smilingapple.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .inner {
+    margin: auto;
+    vertical-align: middle;
+  }
+
+  &.big {
+    background-color: $header-bg-color;
+    background-image: url("../bg-from-smilingapple.png");
+    vertical-align: middle;
+
+    &.full {
+      min-height: 100vh;
+      padding-bottom: 1rem;
+      background-image: url("../bg2-from-16pxl.png");
+    }
+
+    @include large {
+      padding-top: 7rem;
+    }
+    @include medium {
+      padding-top: 6rem;
+    }
+    @include small {
+      padding-top: 6rem;
+    }
+  }
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+  @include medium {
+    padding: 3rem 4rem;
+  }
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
+
+.site-header {
+  &.blend {
+    &.transparent {
+      $nav-bg-color: #00000033;
+      border-bottom: 2px dotted #ffffff33;
+      min-height: $spacing-unit * 1.865;
+      background-color: #00000033;
+    }
+    // Positioning context for the mobile navigation icon
+    top: 0;
+    position: fixed;
+    transition: ease 0.3s;
+  }
+
+  .site-title {
+    &,
+    &:hover,
+    &:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .site-nav {
+    .page-link {
+      color: white;
+    }
+  }
+
+  .transparent {
+    .site-nav {
+      @include media-query($on-palm) {
+        $nav-bg-color: #00000033;
+      }
+    }
+  }
+}
+
+.site-footer {
+  text-align: center;
+
+  .social-media {
+    .my-span-icon {
+      padding: 0px 5px 5px 5px;
+    }
+
+    .github :hover {
+      color: #181717;
+      fill: #181717;
+    }
+
+    .twitter :hover {
+      color: #1DA1F2;
+      fill: #1DA1F2;
+    }
+
+    .telegram :hover {
+      color: #2CA5E0;
+      fill: #2CA5E0;
+    }
+
+    .line-app :hover {
+      color: #00C300;
+      fill: #00C300;
+    }
+
+    .whatsapp :hover {
+      color: #25D366;
+      fill: #25D366;
+    }
+
+    .rss-icon :hover {
+      color: #FFA500;
+      fill: #FFA500;
+    }
+  }
+
+  .copyright {
+    margin: 1rem;
+  }
+
+}

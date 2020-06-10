@@ -1,0 +1,124 @@
+:root {
+  --social-media-bg-hover: #ffffff;
+  --social-media-fg-hover: #333333;
+}
+
+footer {
+  background-color: #333333;
+  display: flex;
+  color: white;
+  padding: 0.5em 1em;
+  margin-top: 2em;
+  vertical-align: middle !important;
+}
+
+footer .flexi {
+  flex: 1;
+  margin: auto;
+  display: inline-block;
+}
+
+footer .flexi * {
+  padding: 0;
+  margin: auto;
+  display: inline-block;
+}
+
+footer .right {
+  text-align: right;
+}
+
+footer .copyright {
+  flex-grow: 3;
+}
+
+footer a {
+  color: white;
+}
+
+.social-media {
+  list-style-type: none;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+
+.social-media li {
+  margin: auto;
+  padding: 0 2px;
+  display: inline-block;
+}
+
+.social-media .disabled {
+  color: #cccccc;
+  cursor: no-drop;
+}
+
+.social-media a {
+  text-align: center;
+  font-size: 1.5rem;
+  height: fit-content;
+}
+
+.social-media i {
+  width: auto;
+  padding: 4px;
+  border: 1px dotted white;
+  border-radius: 8px;
+}
+
+.social-media i:not(.disabled):hover {
+  background-color: var(--social-media-bg-hover);
+  color: var(--social-media-fg-hover);
+  transition: ease .3s;
+}
+
+.social-media .fa-facebook-square:hover {
+  --social-media-fg-hover: #4267B2;
+}
+
+.social-media .fa-twitter-square:hover {
+  --social-media-fg-hover: #1DA1F2;
+}
+
+.social-media .fa-line:hover {
+  --social-media-fg-hover: #00ff00;
+}
+
+.social-media .fa-reddit-square:hover {
+  --social-media-fg-hover: #FF4301;
+}
+
+.social-media .fa-github:hover {
+  --social-media-fg-hover: #211F1F;
+}
+
+.social-media .fa-telegram:hover {
+  --social-media-fg-hover: #0088cc;
+}
+
+.social-media .fa-discord:hover {
+  --social-media-fg-hover: #738ADB;
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  footer > * {
+    padding: 0.5em;
+    margin: auto;
+  }
+
+  footer .social-media a {
+    font-size: 2rem;
+  }
+
+  footer .copyright {
+    padding-block: 0.2em;
+    text-align: center;
+    margin-top: 1em;
+    order: 10;
+  }
+}

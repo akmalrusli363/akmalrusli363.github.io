@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+theme:
+title: akmalrusli363
+description: BINUSIAN 2022 Computer Scientist
+
+plugins:
+  - jemoji
