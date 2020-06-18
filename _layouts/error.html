@@ -91,6 +91,7 @@
       </span>
 
       <!-- Twitter icon -->
+      {% if site.twitter %}
       <span class="my-span-icon twitter">
         <a href="https://twitter.com/{{ site.twitter.username }}" aria-label="{{ site.github.owner_name }}'s Twitter" title="{{ site.github.owner_name }}'s Twitter">
           <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -99,6 +100,7 @@
           </svg>
         </a>
       </span>
+      {% endif %}
 
       <!-- Telegram icon -->
       <span class="my-span-icon telegram">

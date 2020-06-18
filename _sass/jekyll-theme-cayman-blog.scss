@@ -443,7 +443,8 @@ a {
     fill: $body-text-color; // IE8
     width: 28px;
     height: 28px;
-    transition: color .5s, transform .2s ease-out;
+    border-radius: 20%;
+    transition: color .5s, transform .2s ease-out, background-color .1s;
 
     &:hover {
       text-decoration: none;
@@ -451,8 +452,7 @@ a {
       fill: $section-headings-color;
       background-color: white;
       transform: scale(1.4);
-      transition: color .5s, transform .2s ease-out;
-      border-radius: 20%;
+      transition: color .5s, transform .2s ease-out, background-color .1s;
       padding: 2px;
     }
 

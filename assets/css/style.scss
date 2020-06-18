@@ -27,7 +27,7 @@ $text-color: #fff;
     &.full {
       min-height: 100vh;
       padding-bottom: 1rem;
-      background-image: url("../bg2-from-16pxl.png");
+      background-image: url("../bg-green-2.jpg");
     }
 
     @include large {
@@ -134,4 +134,10 @@ $text-color: #fff;
     margin: 1rem;
   }
 
+}
+
+img[src*="#center"] {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }

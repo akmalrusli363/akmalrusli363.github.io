@@ -69,7 +69,7 @@ footer a {
 .social-media i:not(.disabled):hover {
   background-color: var(--social-media-bg-hover);
   color: var(--social-media-fg-hover);
-  transition: ease .3s;
+  transition: ease .3s all;
 }
 
 .social-media .fa-facebook-square:hover {

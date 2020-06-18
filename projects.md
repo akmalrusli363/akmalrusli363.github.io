@@ -41,6 +41,8 @@ Github repos: [akmalrusli363/smell](https://github.com/akmalrusli363/smell)
 | [wiki](https://github.com/akmalrusli363/smell/wiki)
 | [Github Pages](https://akmalrusli363.github.io/smell)
 
+![Info](assets/resources/repo-smell.png#center)
+
 Repository tersebut pada aslinya dibuatkan oleh dosen Code Reengineering, Michael Reynaldo Phangtriastu untuk keperluan materi online class COMP6106 - Code Reengineering, kelas LE01 semester genap tahun 2019-2020.
 
 Repository ini kemudian ditambahkan dengan wiki dan github-pages oleh saya sendiri untuk memperlengkap materi baik secara literal maupun naratif terhadap materi mata kuliah COMP6106 - Code Reengineering dengan tambahan teks narasi, ilustrasi, dan referensi terhadap sumber luar.
