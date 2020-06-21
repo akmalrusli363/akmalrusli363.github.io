@@ -21,6 +21,8 @@ JSON currency exchange site.
 
 ## BNCC Training: Java Ebanking App
 
+Github repos: [akmalrusli363/ebankingku-java](https://github.com/akmalrusli363/ebankingku-java)
+
 **ebankingku-java** merupakan sebuah Java demo project untuk mendemonstrasikan cara menghubungkan Java GUI project ke MySQL melalui JDBC connection.
 
 Project ini dibuat saat mengikuti BNCC Praetorian Training sebagai project demonstrasi cara menghubungkan Java GUI ke MySQL dengan MySQL JDBC Connector.

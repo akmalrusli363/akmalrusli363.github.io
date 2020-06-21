@@ -136,8 +136,23 @@ $text-color: #fff;
 
 }
 
-img[src*="#center"] {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+.main-content {
+  &:not(.post-list) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding-top: 5rem;
+      margin-top: -5rem;
+    }
+  }
+  
+  
+  img[src*="#center"] {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
 }

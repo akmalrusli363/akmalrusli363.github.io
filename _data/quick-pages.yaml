@@ -1,8 +1,8 @@
 - title: About
-  url: about.html
+  url: /about.html
 
 - title: Code Reengineering
   url: /smell
 
 - title: My Projects
-  url: projects.html
+  url: /projects.html
