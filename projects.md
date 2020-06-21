@@ -53,6 +53,16 @@ Repository ini terdiri atas banyak jenis-jenis smell yang dibahas secara literat
 
 Jika anda ingin melihat sekilas dan lebih detail mengenai materi Code Reengineering yang dibuatkan oleh dosen **Michael Reynaldo Phangtriastu _(mrp130)_**, dapat mengunjungi link [repository asli Code Reengineering - *mrp130*](https://github.com/mrp130/smell/).
 
+### CATATAN
+
+Code pada materi ini masih menggunakan bahasa pemrograman Java!
+
+Bagi anda yang ingin menyumbangkan code dalam bahasa pemrograman favorit kalian (C++, C#, Python, Ruby, Go, PHP, dan lain-lain):
+
+1. Silahkan fork repository ini
+2. Kreasikan dengan versi code kalian (dalam bahasa pemrograman favorit kalian)
+3. Manfaatkan/gunakan issue dan pull request pada repository di atas.
+
 ### Referensi
 
 - Fowler, Martin. Refactoring: improving the design of existing code. Addison-Wesley Professional, 2018.
