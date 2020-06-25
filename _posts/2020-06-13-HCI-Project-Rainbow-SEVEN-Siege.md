@@ -8,7 +8,7 @@ excerpt_separator: "<!--more-->"
 
 ![GitHub deployments](https://img.shields.io/github/deployments/akmalrusli363/HCI-Rainbow-Seven-Siege/Github-Pages?label=GitHub%20Pages%20status)
 
-_**Rainbow Seven Siege** adalah project Human and Computer Interaction yang berisikan tentang pembuatan website berbasiskan HTML, JavaScript (Pure-JS dan JQuery), dan Pure-CSS._
+_**Rainbow Seven Siege** adalah project Human and Computer Interaction yang berisikan tentang pembuatan website game dari **Ubipost** berbasiskan HTML, JavaScript (Pure-JS dan JQuery), dan Pure-CSS._
 
 <!--more-->
 
@@ -16,6 +16,9 @@ _**Rainbow Seven Siege** adalah project Human and Computer Interaction yang beri
 
 Our task is to **create a logo and a promotional website** that represent the new upcoming updates. We also need to consider the design for the website according to [their requirements](https://akmalrusli363.github.io/HCI-Rainbow-Seven-Siege/REQUIREMENTS) so the user **can pre-order and sneak peek about the new update** of the game.
 
+### Site Link
+
+Rainbow Seven Siege by Ubipost: [https://akmalrusli363.github.io/HCI-Rainbow-Seven-Siege/](https://akmalrusli363.github.io/HCI-Rainbow-Seven-Siege/)
 
 ## Team members
 
