@@ -6,7 +6,7 @@ var arr = [
   "Naruto, ini kan kampus BUNIS bukan sekolah Hokage!",
   "Leh.. lagi cari situs judi? Tanyakan aja sama bang Judi..",
   "Ini bukan sabung ayam!",
-  "Code Reengineering is a way to <strong>cleanse your brain</strong>, not making you married with code!",
+  "Code Reengineering is a way to <strong>make your clean code</strong>, not making you married with code!",
   "Nyari downloadan materi? Kami gak ada file :((",
   "Nyari kode nuklir? Situs ini gak punya nomor berapapun :D",
   "CARI KE BINUSMAYA SONO!!!",
@@ -15,7 +15,13 @@ var arr = [
   "Eh.. mampus..! :((",
   "Press <strong>F</strong> to pay respect..",
   ":(",
-  "All you had to do was follow the pricky train, CJ!"
+  "All you had to do was follow the pricky train, CJ!",
+  "Nyari kajew?",
+  "small pp",
+  "\"sini saya bungkus\" -- gilang.exe",
+  "lalu?",
+  "<img src=\"/assets/resources/coffin-dance.gif\" alt=\"coffin dance\" width=\"auto\" height=\"100\" />",
+  "UUS berkata: ...?"
 ];
 
 quote.innerHTML = arr[Math.floor(Math.random() * arr.length)];
