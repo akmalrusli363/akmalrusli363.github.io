@@ -117,7 +117,7 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit * 1.5;
+    margin-bottom: $spacing-unit * 0.5;
   }
 
   > li > h2 {
@@ -128,6 +128,11 @@
   > li > p {
     margin-top: 0rem;
   }  
+
+  > li > hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @include media-query($on-palm) {

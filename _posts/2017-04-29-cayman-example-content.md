@@ -1,11 +1,14 @@
 ---
 layout: post
 title: "Example content"
+excerpt_separator: "<!--more-->"
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page: About]({{ '/about.html' | absolute_url }}).
+
+<!--more-->
 
 There should be whitespace between paragraphs.
 

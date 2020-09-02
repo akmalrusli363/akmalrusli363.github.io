@@ -13,7 +13,6 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
 
@@ -25,7 +24,13 @@ layout: default
         <img src="assets/resources/{{post.image}}">
       {% endif %}
 
-      {{ post.excerpt | markdownify | truncatewords: 60 }}
+      {{ post.content | split:'<!--more-->' | first }}
+      
+      {% if post.content contains '<!--more-->' %}
+        <a href="{{ post.url | absolute_url }}">Read more &gt;&gt;</a>
+      {% endif %}
+
+      <hr>
 
     </li>
     {% endfor %}
