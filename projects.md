@@ -16,7 +16,7 @@ Github repos: [akmalrusli363/JSON-Currency](https://github.com/akmalrusli363/jso
 **json-currency** is a JSON Currency command line to obtain currency exchange table and rates from
 JSON currency exchange site.
 
-> **NOTICE**: **json-currency** is an incomplete version of json-currency, so you can contribute for extra things or corrections related for the project repository.
+> **NOTICE**: **json-currency** is under work-in-progress project, so you can contribute for extra things or corrections related for the project repository.
 
 
 ## BNCC Training: Java Ebanking App
