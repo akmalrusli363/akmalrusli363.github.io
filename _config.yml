@@ -4,3 +4,4 @@ description: BINUSIAN 2022 Computer Scientist
 
 plugins:
   - jemoji
+  - jekyll-gist
