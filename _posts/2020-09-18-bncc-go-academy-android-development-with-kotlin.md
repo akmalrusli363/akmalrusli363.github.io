@@ -5,6 +5,7 @@ excerpt_separator: "<!--more-->"
 ---
 
 ![Android ♥ Kotlin (Sumber istimewa)](/assets/resources/go-academy/android-kotlin.png#center "Android ♥ Kotlin (Sumber istimewa)")
+*Android ♥ Kotlin (Sumber istimewa)*
 
 Hai wahai para pembaca blog! Hari ini aku kembali menuliskan blog ini untuk kegiatan saya selama liburan semester pendekku. Sebelumnya saat ini saya sedang menempuh semester 5 (pada post ini diterbitkan) yang sayangnya harus menjalankan perkuliahan secara daring dari rumah karena (sudah pasti) pandemi COVID-19.
 
@@ -19,8 +20,7 @@ Pada tahun 2020, BNCC kembali mengadakan BNCC Academy Bootcamp bersama Go-Academ
 ## Mengenal Kotlin
 
 ![Kotlin Programming Language](/assets/resources/go-academy/kotlin-programming-language.png#center "Kotlin Programming Language")
-
-
+*Kotlin Programming Language*
 
 Buat yang belum familiar dengan Kotlin, Kotlin sendiri adalah bahasa pemrograman yang berbasiskan bahasa pemrograman Java & dikembangkan oleh JetBrains dimana dapat dijalankan pada sistem JVM (Java Virtual Machine) dan dapat inter-operable dengan code Java sehingga mudah untuk diaplikasikan meski dengan campur aduk dengan code Java Anda.
 
@@ -225,4 +225,4 @@ Satu lagi, saya juga sertakan link repository yang tentunya sangat disayangkan j
 
 > Repository Github [akmalrusli363/BNCC-Academy-Kotlin-Demo](https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo)
 
-Sekian post saya mengenai kegiatan saya di BNCC x Go-Academy, semoga bermanfaat bagi kita semua & sampai ketemu di post selanjutnya :smiley: 
+Sekian post saya mengenai kegiatan saya di BNCC x Go-Academy, semoga bermanfaat bagi kita semua & sampai ketemu di post selanjutnya :smiley:
