@@ -1,0 +1,56 @@
+/* 16px = 1rem */
+
+.jekyll-linkpreview-wrapper {
+  max-width: 45rem;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jekyll-linkpreview-wrapper-inner {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: .8rem;
+}
+
+.jekyll-linkpreview-content {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: .6rem;
+  height: 6rem;
+}
+
+.jekyll-linkpreview-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.jekyll-linkpreview-image img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.jekyll-linkpreview-body {
+  margin-right: 6.75rem;
+}
+
+.jekyll-linkpreview-body-nog {
+  margin-right: 0.6rem;
+}
+
+.jekyll-linkpreview-title {
+  padding: 0 !important;
+  margin: 0 0 .5rem !important;
+  font-weight: bold !important;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.jekyll-linkpreview-description {
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+.jekyll-linkpreview-footer {
+  font-size: 0.8rem;
+}
