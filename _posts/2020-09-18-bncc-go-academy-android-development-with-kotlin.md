@@ -75,7 +75,9 @@ Intent tentunya bisa bikin aplikasi anda bisa diakses oleh aplikasi lain dan mem
 
 Tanpa adanya `intent-filter` sama sekali dalam `AndroidManifest.xml`, aplikasi tentunya tidak bisa dibuka karena tidak ada intent yang menerima akses tersebut sama sekali.
 
-Untuk mengetahui informasi lebih lanjut mengenai Intent & Intent Filter dapat dilihat di [Android UI Guides - Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters?hl=en "Android UI Guides - Intents & Intent Filters").
+Untuk mengetahui informasi lebih lanjut mengenai Intent & Intent Filter dapat dilihat di [Android UI Guides - Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters?hl=en "Android UI Guides - Intents & Intent Filters") di bawah:
+
+{% linkpreview "https://developer.android.com/guide/components/intents-filters?hl=en" %}
 
 ---
 
@@ -96,7 +98,9 @@ Dalam ReyclerView terdapat 2 komponen penting, yaitu **`RecyclerView.Adapter`** 
 
 Tentunya View tersebut sangat amat berguna jika anda menginginkan data yang banyak & berseri untuk ditampilkan dalam View tersebut.
 
-Ingin mengetahui lebih lanjut tentang RecyclerView? Simak lebih lanjut melalui [Android Developer UI Guides - RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en)
+Ingin mengetahui lebih lanjut tentang RecyclerView? Simak lebih lanjut melalui [Android Developer UI Guides - RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en) di bawah:
+
+{% linkpreview "https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en" %}
 
 ---
 
@@ -127,10 +131,10 @@ Dalam Hit API menggunakan okHttp, terdapat 2 function penting yaitu `fetchData(l
 
 Function `fetchData` akan memanggil request sesuai dengan URL API yang diinginkan oleh pengguna lalu melakukan `enqueue` untuk mendapatkan data-data dari API dengan memanggil function `getCallback` di dalamnya.
 
-```kotlinlang
+```kotlin
 val lookupDataApiURL = "https://api.kawalcorona.com/indonesia/provinsi/"
 ```
-```
+```kotlin
 val request: Request = Request.Builder().url(lookupDataApiURL).build()
 
 okHttpClient.newCall(request) .enqueue(getCallback(lookupAdapter))
@@ -221,8 +225,8 @@ Dan buat anda yang ingin belajar lebih lanjut mengenai API dalam pemrograman And
 - Retrofit: [https://square.github.io/retrofit/](https://square.github.io/retrofit/)
 - Tutorial Retrofit: [https://www.journaldev.com/13639/retrofit-android-example-tutorial](https://www.journaldev.com/13639/retrofit-android-example-tutorial)
 
-Satu lagi, saya juga sertakan link repository yang tentunya sangat disayangkan jika anda tidak mencoba Aplikasi hasil eksperimen saya sendiri dengan Project COVID-19 Data selama BNCC x Go-Academy berlangsung di:
+Satu lagi, saya juga sertakan link repository yang tentunya sangat disayangkan jika anda tidak mencoba Aplikasi hasil eksperimen saya sendiri dengan Project COVID-19 Data selama BNCC x Go-Academy berlangsung di bawah:
 
-> Repository Github [akmalrusli363/BNCC-Academy-Kotlin-Demo](https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo)
+{% linkpreview "https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" %}
 
 Sekian post saya mengenai kegiatan saya di BNCC x Go-Academy, semoga bermanfaat bagi kita semua & sampai ketemu di post selanjutnya :smiley:

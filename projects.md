@@ -18,6 +18,7 @@ JSON currency exchange site.
 
 > **NOTICE**: **json-currency** is under work-in-progress project, so you can contribute for extra things or corrections related for the project repository.
 
+---
 
 ## BNCC Training: Java Ebanking App
 
@@ -36,6 +37,7 @@ Untuk melakukan demonstrasi pada project ini, anda memerlukan **MySQL** dan **My
 
 Untuk MySQL Database, anda dapat menggunakan [XAMPP](https://xampp.org) versi apa saja atau install MySQL secara manual melalui [(https://dev.mysql.com/downloads/)](https://dev.mysql.com/downloads/)
 
+---
 
 ## Code Reengineering (Forked from mrp130/smell)
 
@@ -70,6 +72,38 @@ Bagi anda yang ingin menyumbangkan code dalam bahasa pemrograman favorit kalian 
 - [Sourcemaking](https://sourcemaking.com/refactoring) (kompilasi dari refactoring.guru & sumber tambahan)
 - [refactoring.guru](https://sourcemaking.com/refactoring) (sumber asli dari sourcemaking)
 
+
+---
+
+## BNCC x Go-Academy: Siaga Corona App
+
+Personal Github repos: [akmalrusli363/BNCC-Academy-Kotlin-Demo](https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo)
+| Team Project's Github repos: [SteveWKurnia/BNCCAcademy---CoronaApp](https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp)
+
+<!-- Aplikasi **Siaga Corona** merupakan hasil kolaborasi antara BNCC dan Go-Academy (Gojek Academy), dimana melalui project ini para pengurus dan praetorian ditantang untuk menciptakan aplikasi Android, "Siaga Corona" dengan menggunakan bahasa pemrograman Kotlin sebagai bahasa pemrograman yang populer untuk dipakai di kalangan IT Venture terutama dalam Mobile Development. Selain berbasis Kotlin, para peserta BNCC Academy juga tentunya diajarkan untuk merancang user interface yang baik, mendapatkan data kasus COVID-19 melalui API Hit dan menerapkan App Architecture sebagai landasan untuk mengembangkan software yang berkualitas. -->
+
+**Siaga Corona** is a BNCC x Go-Academy (Gojek Academy) collaborative application where through this project, the BNCC boards and praetorians were encouraged to create an Android App for COVID-19 Mitigation in Indonesia using Kotlin programming language which was a popular programming language for mobile and server-side developments and used by lot of IT Ventures and startups (including Square, Pinterest, Google, Gojek, DANA, and many more).
+
+Not only developing Android app based on Kotlin, the BNCC Academy members are also taught to design a good user interface, obtained COVID-19 case statistics through API REST call, and apply App Architecture as a foundation for developing quality software.
+
+This app serves COVID-19 statistical data overview, regional cases overview, and Hotline for emergency phone number services while you're experiencing some minor or major COVID-19 symptoms (e.g. fever, dry cough, tiredness, heavy breathes, etc.)
+
+Dalam project Siaga Corona App, saya terlibat dalam pengerjaan final project dengan masing-masing anggotanya:
+
+- Stephen William
+- Annetta Carolina
+- Diaz
+- Akmal
+- Juan Sebastian
+
+For further information about the team's project, visit our team project's Github repos (Team 2) below:
+
+{% linkpreview "https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp" %}
+
+
+Or while you need to sneak peek with my experiments project for COVID-19 mitigation app, visit my personal app project's Github repos below:
+
+{% linkpreview "https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" %}
 
 
 ---
