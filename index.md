@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+description: Sebuah situs daily blog dan portfolio dari seorang mahasiswa BINUSian 2022 jurusan Computer Science.
 ---
 
 Sebuah situs daily blog dan portfolio dari seorang mahasiswa BINUSian 2022 jurusan Computer Science.
-

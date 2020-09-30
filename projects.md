@@ -55,6 +55,49 @@ Repository ini terdiri atas banyak jenis-jenis smell yang dibahas secara literat
 
 Jika anda ingin melihat sekilas dan lebih detail mengenai materi Code Reengineering yang dibuatkan oleh dosen **Michael Reynaldo Phangtriastu _(mrp130)_**, dapat mengunjungi link [repository asli Code Reengineering - *mrp130*](https://github.com/mrp130/smell/).
 
+<!-- Generated linkpreview for https://github.com/mrp130/smell/ -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://github.com/mrp130/smell/" target="_blank">
+        <img src="https://avatars3.githubusercontent.com/u/8136735?s=400&amp;v=4" />
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://github.com/mrp130/smell/" target="_blank">mrp130/smell</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">Contribute to mrp130/smell development by creating an account on GitHub.</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="github.com" target="_blank">github.com</a>
+    </div>
+  </div>
+</div>
+
+Atau bila anda ingin melihat informasi yang lebih afirmatif, menarik, dan lebih lengkap silahkan kunjungi GitHub wiki saya dan GitHub Pages Code Reengineering di bawah:
+
+<!-- Generated linkpreview for https://github.com/akmalrusli363/smell/wiki/ -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://github.com/akmalrusli363/smell/wiki/" target="_blank">
+        <img src="https://repository-images.githubusercontent.com/259046645/154a4b80-b0d3-11ea-850f-70aa4decedaf" />
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://github.com/akmalrusli363/smell/wiki/" target="_blank">akmalrusli363/smell</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">Repository berisikan berbagai smell dan teknik-teknik refactoring dalam menyelesaikan kasus tersebut (Code Reengineering) - akmalrusli363/smell</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="github.com" target="_blank">github.com</a>
+    </div>
+  </div>
+</div>
+
+
 ### CATATAN
 
 Code pada materi ini masih menggunakan bahasa pemrograman Java!
@@ -98,12 +141,48 @@ Dalam project Siaga Corona App, saya terlibat dalam pengerjaan final project den
 
 For further information about the team's project, visit our team project's Github repos (Team 2) below:
 
-{% linkpreview "https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp" %}
+<!-- Generated linkpreview for https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp" target="_blank">
+        <img src="https://avatars3.githubusercontent.com/u/45429692?s=400&amp;v=4" />
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://github.com/SteveWKurnia/BNCCAcademy---CoronaApp" target="_blank">SteveWKurnia/BNCCAcademy---CoronaApp</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">A repository for an app made during BNCC x GoJek academy, which shows data about Coronavirus statistics in Indonesia - SteveWKurnia/BNCCAcademy---CoronaApp</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="github.com" target="_blank">github.com</a>
+    </div>
+  </div>
+</div>
 
 
 Or while you need to sneak peek with my experiments project for COVID-19 mitigation app, visit my personal app project's Github repos below:
 
-{% linkpreview "https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" %}
+<!-- Generated linkpreview for https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/43511875?s=400&amp;v=4" />
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" target="_blank">akmalrusli363/BNCC-Academy-Kotlin-Demo</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">A repository for an app made during BNCC x Gojek Academy demonstrated using Kotlin, which shows data about COVID19 statistics in Indonesia - akmalrusli363/BNCC-Academy-Kotlin-Demo</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="github.com" target="_blank">github.com</a>
+    </div>
+  </div>
+</div>
 
 
 ---

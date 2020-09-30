@@ -5,9 +5,6 @@
   margin-bottom: 1.25rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-.jekyll-linkpreview-wrapper-inner {
   border: 1px solid rgba(0,0,0,.1);
   padding: .8rem;
 }
@@ -15,8 +12,7 @@
 .jekyll-linkpreview-content {
   position: relative;
   overflow: hidden;
-  margin-bottom: .6rem;
-  height: 6rem;
+  min-height: 6rem;
 }
 
 .jekyll-linkpreview-image {
@@ -28,10 +24,12 @@
 .jekyll-linkpreview-image img {
   width: 6rem;
   height: 6rem;
+  object-fit: contain;
 }
 
 .jekyll-linkpreview-body {
   margin-right: 6.75rem;
+  margin-bottom: 2rem;
 }
 
 .jekyll-linkpreview-body-nog {
@@ -52,5 +50,17 @@
 }
 
 .jekyll-linkpreview-footer {
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  padding-top: 0.25rem;
+  border-top: 1px solid rgba(0,0,0,.1);
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .jekyll-linkpreview-footer {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+  }
 }

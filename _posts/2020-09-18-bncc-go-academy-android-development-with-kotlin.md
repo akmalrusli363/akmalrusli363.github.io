@@ -77,7 +77,25 @@ Tanpa adanya `intent-filter` sama sekali dalam `AndroidManifest.xml`, aplikasi t
 
 Untuk mengetahui informasi lebih lanjut mengenai Intent & Intent Filter dapat dilihat di [Android UI Guides - Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters?hl=en "Android UI Guides - Intents & Intent Filters") di bawah:
 
-{% linkpreview "https://developer.android.com/guide/components/intents-filters?hl=en" %}
+<!-- Generated linkpreview for https://developer.android.com/guide/components/intents-filters?hl=en -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://developer.android.com/guide/components/intents-filters?hl=en" target="_blank">
+        <img src="https://developer.android.com/images/social/android-developers.png">
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://developer.android.com/guide/components/intents-filters?hl=en" target="_blank">Intents and Intent Filters  |  Android Developers</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">An Intent is a messaging object you can use to request an action from another app component . Although intents facilitate communication between components in several ways, there are three fundamental use cases: An Activity represents a single screen in…</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="developer.android.com" target="_blank">developer.android.com</a>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -100,7 +118,25 @@ Tentunya View tersebut sangat amat berguna jika anda menginginkan data yang bany
 
 Ingin mengetahui lebih lanjut tentang RecyclerView? Simak lebih lanjut melalui [Android Developer UI Guides - RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en) di bawah:
 
-{% linkpreview "https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en" %}
+<!-- Generated linkpreview for https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en" target="_blank">
+        <img src="https://developer.android.com/images/social/android-developers.png">
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=en" target="_blank">Create a List with RecyclerView  |  Android Developers</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">Using RecyclerView to display lists and grids of dynamic content.</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="developer.android.com" target="_blank">developer.android.com</a>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -227,6 +263,24 @@ Dan buat anda yang ingin belajar lebih lanjut mengenai API dalam pemrograman And
 
 Satu lagi, saya juga sertakan link repository yang tentunya sangat disayangkan jika anda tidak mencoba Aplikasi hasil eksperimen saya sendiri dengan Project COVID-19 Data selama BNCC x Go-Academy berlangsung di bawah:
 
-{% linkpreview "https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" %}
+<!-- Generated linkpreview for https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo -->
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-content">
+    <div class="jekyll-linkpreview-image">
+      <a href="https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/43511875?s=400&amp;v=4">
+      </a>
+    </div>
+    <div class="jekyll-linkpreview-body">
+      <h2 class="jekyll-linkpreview-title">
+        <a href="https://github.com/akmalrusli363/BNCC-Academy-Kotlin-Demo" target="_blank">akmalrusli363/BNCC-Academy-Kotlin-Demo</a>
+      </h2>
+      <div class="jekyll-linkpreview-description">A repository for an app made during BNCC x Gojek Academy demonstrated using Kotlin, which shows data about COVID19 statistics in Indonesia - akmalrusli363/BNCC-Academy-Kotlin-Demo</div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="github.com" target="_blank">github.com</a>
+    </div>
+  </div>
+</div>
 
 Sekian post saya mengenai kegiatan saya di BNCC x Go-Academy, semoga bermanfaat bagi kita semua & sampai ketemu di post selanjutnya :smiley:
