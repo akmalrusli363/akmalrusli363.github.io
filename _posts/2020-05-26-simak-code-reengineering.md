@@ -2,6 +2,8 @@
 layout: post
 title: "Sponsored Material - Ayo simak Code Reengineering!"
 excerpt_separator: "<!--more-->"
+image: "/assets/resources/repo-smell.png"
+description: "Pengen beresin project tapi kerjaan teman anda berantakan setengah mati? Ayo simak kembali materi Code Reengineering di sini"
 ---
 
 Pengen beresin project tapi kerjaan teman anda berantakan setengah mati? Ayo simak kembali materi **Code Reengineering** melalui link banner dibawah :arrow_down_small: :arrow_down_small:

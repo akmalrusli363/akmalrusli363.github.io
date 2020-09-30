@@ -2,6 +2,8 @@
 layout: post
 title: "BNCC x Go-Academy 2020: Introduce & Dive into Kotlin in Android Development"
 excerpt_separator: "<!--more-->"
+image: "/assets/resources/go-academy/android-kotlin.png"
+description: "BNCC x Go-Academy: “Android Development with Kotlin”. Ayo bikin App Android kamu dengan next-generation programming language, Kotlin!"
 ---
 
 ![Android ♥ Kotlin (Sumber istimewa)](/assets/resources/go-academy/android-kotlin.png#center "Android ♥ Kotlin (Sumber istimewa)")

@@ -2,6 +2,8 @@
 layout: post
 title: "HCI Rainbow Seven Siege"
 excerpt_separator: "<!--more-->"
+image: "/assets/resources/rainbow-7s/logo.png"
+description: Rainbow Seven Siege adalah project Human and Computer Interaction yang berisikan tentang pembuatan website game dari Ubipost berbasiskan HTML, JavaScript (Pure-JS dan JQuery), dan Pure-CSS."
 ---
 
 ![Logo R7S](/assets/resources/rainbow-7s/logo.png#center)

@@ -1,6 +1,7 @@
 theme:
 title: akmalrusli363
 description: BINUSIAN 2022 Computer Scientist
+image: /assets/site-logo.png
 
 plugins:
   - jemoji
