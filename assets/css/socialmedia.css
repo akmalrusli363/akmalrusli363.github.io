@@ -1,0 +1,127 @@
+.contact {
+  align-items: center;
+  text-align: center;
+}
+
+.contact .social-media {
+  list-style-type: none;
+  padding: 0 0.5em;
+  fill: #393939;
+  color: #393939;
+  display: inline-block;
+}
+
+.contact .social-media .disabled {
+  --social-media-fg-hover: #cccccc;
+  fill: #cccccc;
+  color: #cccccc;
+  cursor: no-drop;
+}
+
+.social-media .social-media-svg:not(.disabled):hover {
+  fill: var(--social-media-fg-hover, #606060);
+  color: var(--social-media-fg-hover, #606060);
+  transform: scale(1.2);
+  transition: --social-media-fg-hover .5s, transform .2s ease-out, background---social-media-fg-hover .1s;
+}
+
+.facebook :hover {
+  --social-media-fg-hover: #4267B2;
+}
+
+.twitter :hover {
+  --social-media-fg-hover: #1DA1F2;
+}
+
+.linkedin :hover {
+  --social-media-fg-hover: #0077B5;
+}
+
+.github :hover {
+  --social-media-fg-hover: #211F1F;
+}
+
+.medium :hover {
+  --social-media-fg-hover: #12100E;
+}
+
+.line-app :hover {
+  --social-media-fg-hover: #00ff00;
+}
+
+.whatsapp :hover {
+  --social-media-fg-hover: #25D366;
+}
+
+.telegram :hover {
+  --social-media-fg-hover: #0088cc;
+}
+
+.discord :hover {
+  --social-media-fg-hover: #738ADB;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 8rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: .25rem 0;
+  border-radius: .5rem;
+  bottom: 100%;
+  left: -30%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: .2rem;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 750px) {
+  .contact .social-media {
+    padding: 0 0.25em;
+    display: inline-block;
+  }
+
+  .social-media .social-media-svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .tooltip .tooltiptext {
+    font-size: .9em;
+    width: 7rem;
+    left: -50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .social-media .social-media-svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .tooltip .tooltiptext {
+    font-size: .9em;
+    width: 7rem;
+    left: -70%;
+  }
+}

@@ -3,6 +3,13 @@ title: akmalrusli363
 description: BINUSIAN 2022 Computer Scientist
 image: /assets/site-logo.png
 
+twitter:
+  username: akmal_rusli
+medium:
+  username: akmalrusli363
+linkedin:
+  username: akmal-akmal-978189190
+
 plugins:
   - jemoji
   - jekyll-gist
