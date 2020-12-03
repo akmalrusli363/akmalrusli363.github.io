@@ -14,3 +14,4 @@ plugins:
   - jemoji
   - jekyll-gist
   - jekyll-linkpreview
+  - jekyll-seo-tag
