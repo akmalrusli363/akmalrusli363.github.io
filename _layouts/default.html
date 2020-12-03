@@ -56,6 +56,8 @@
 
 <body>
 
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+
   {% include site-header.html %}
 
   {% if page.layout == 'home' %}
@@ -96,7 +98,7 @@
     </div>
   </section>
 
-  <section class="main-content">
+  <section class="main-content" id="content">
 
     {{ content }}
 

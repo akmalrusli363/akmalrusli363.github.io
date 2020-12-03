@@ -41,11 +41,12 @@ body {
   position: absolute;
   overflow: hidden;
   top: -10px;
+  z-index: 10;
 
   &:focus {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 5rem;
+    left: 1rem;
     height: auto;
     width: auto;
     background: invert($body-link-color);
