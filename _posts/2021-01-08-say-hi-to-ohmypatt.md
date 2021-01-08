@@ -17,6 +17,8 @@ Kerja di bidang Software Engineering tidaklah sempurna tanpa kehadiran Design Pa
 
 Kini waktunya kenalan sama \"Oh-My-Patt!\", situs & repository Design Pattern berbahasa Indonesia dimana anda akan terjun ke dalam alam dunia Design Pattern dengan penyajian materi yang menarik & lengkap melalui project ini. Project ini tentunya dihadirkan dalam format Repository, Wiki & GitHub Pages yang dapat saling melengkapi materi Design khusus buat anda!
 
+<!--more-->
+
 Selain itu, seluruh materi ini ditulis **100% asli dengan hasil pembelajaran saya** melalui materi perkuliahan dan diadaptasi dari buku “Design Patterns: Elements of Reusable Object-Oriented Software” alias _**Gang of Four Design Patterns**_ yang juga digunakan dalam Refactoring.guru dan SourceMaking yang mendekatkan anda kepada dunia Design Pattern lebih jauh lagi.
 
 ## Apa saja yang ada dalam situs Oh-My-Patt?
