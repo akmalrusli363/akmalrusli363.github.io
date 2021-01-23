@@ -29,3 +29,4 @@ tmp/*
 
 # Draft post is also ignored too
 _draft/
+_drafts/
