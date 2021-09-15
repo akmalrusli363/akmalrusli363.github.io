@@ -333,6 +333,18 @@ git fetch <remote_name> <remote_branch>
 git fetch --prune
 ```
 
+Anda juga bisa melakukan pull branch lain tanpa harus melakukan checkout ke branch yang dituju dengan:
+
+```bash
+# pull dari remote tanpa checkout
+git fetch <remote_name> <remote_branch>:<target_branch>
+```
+
+Apabila tidak ada commit yang anda buat pada branch tersebut, maka pointer branch akan maju dengan sendirinya ke commit terbaru dari remote *(fast-forward)*. Namun sebaliknya, apabila ada commit yang baru anda buat, maka commit-commit dari anda akan:
+
+1. Digabungkan dengan commit-commit terbaru dari anda dengan `git merge` (default, tanpa stash),
+2. Ditempatkan setelah commit terbaru dari server dengan `git rebase` (wajib stash, cocok apabila pengen melakukan eksperimen).
+
 
 ## Branching dan Checkout
 
