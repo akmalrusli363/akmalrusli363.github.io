@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<article>
+{% assign projects = site.projects | sort:"date" %}
+{% for project in site.projects reversed %}
+  <h2>{{ project.title }}</h2>
+  {% if project.category %}
+    <blockquote>
+      <p>Category: <i>{{ project.category }}</i></p>
+    </blockquote>
+  {% endif %}
+  <div>
+    {{ project.content | markdownify }}
+  </div>
+  <hr>
+{% endfor %}
+<a href="{{ '/' | absolute_url }}">Go to the Home Page</a>
+</article>

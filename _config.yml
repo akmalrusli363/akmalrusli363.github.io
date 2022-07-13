@@ -10,6 +10,9 @@ medium:
 linkedin:
   username: akmal-akmal-978189190
 
+collections:
+  - projects
+
 plugins:
   - jemoji
   - jekyll-gist
