@@ -8,6 +8,65 @@
 // Text in Navbar
 $text-color: #fff;
 
+.dark {
+  background-color: $dark-bg-color !important;
+  color: $dark-body-text-color;
+
+  .page-header {
+    background-color: $dark-header-bg-color !important;
+    background-image: linear-gradient(120deg, $dark-header-bg-color-secondary, $dark-header-bg-color);
+  }
+
+  .main-content {
+    a {
+      color: $dark-body-link-color;
+    }
+
+    code.highlighter-rouge {
+      color: $dark-body-text-color;
+      background-color: $grey-color-dark;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $dark-section-headings-color;
+    }
+
+    blockquote {
+      color: $dark-blockquote-text-color;
+    }
+  }
+
+  footer {
+    color: $dark-body-text-color;
+
+    a {
+      color: $dark-body-link-color;
+    }
+
+    .site-footer-credits {
+      color: $blockquote-text-color;
+    }
+  }
+}
+
+.night-toggle {
+  cursor: pointer;
+
+  i {
+    width: 1rem;
+  }
+
+  .night-toggle-text {
+    margin-left: .5rem;
+  }
+
+  @media screen and (max-width: 899px) {
+    .night-toggle-text {
+      display: none;
+    }
+  }
+}
+
 .page-header {
   display: grid;
   background-image: url("../bg-from-smilling_apple.png");
@@ -53,6 +112,9 @@ $text-color: #fff;
   }
 }
 
+body {
+  transition: .1s ease;
+}
 
 .site-header {
   &.blend {
@@ -74,6 +136,23 @@ $text-color: #fff;
     &:visited {
       color: white;
       text-decoration: none;
+    }
+  }
+
+  .site-night {
+    color: white;
+    border: 2px dotted #ffffff33;
+    margin: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 899px) {
+      border: 0px dotted #ffffff33;
+      margin: 0.4rem 0.5rem;
+      padding: 0.5rem 0.5rem;
     }
   }
 

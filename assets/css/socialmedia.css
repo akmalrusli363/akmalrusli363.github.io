@@ -11,6 +11,11 @@
   display: inline-block;
 }
 
+.dark .contact .social-media {
+  fill: #999999;
+  color: #999999;
+}
+
 .contact .social-media .disabled {
   --social-media-fg-hover: #cccccc;
   fill: #cccccc;
@@ -18,11 +23,25 @@
   cursor: no-drop;
 }
 
+.dark .contact .social-media .disabled {
+  --social-media-fg-hover: #333;
+  fill: #333;
+  color: #333;
+}
+
 .social-media .social-media-svg:not(.disabled):hover {
   fill: var(--social-media-fg-hover, #606060);
   color: var(--social-media-fg-hover, #606060);
   transform: scale(1.2);
   transition: --social-media-fg-hover .5s, transform .2s ease-out, background---social-media-fg-hover .1s;
+}
+
+.dark .social-media .social-media-svg:not(.disabled):hover {
+  fill: var(--social-media-fg-hover, #a0a0a0);
+  color: var(--social-media-fg-hover, #a0a0a0);
+  border-radius: 50%;
+  padding: .1em;
+  background-color: #f0f0f0;
 }
 
 .facebook :hover {
@@ -46,7 +65,7 @@
 }
 
 .line-app :hover {
-  --social-media-fg-hover: #00ff00;
+  --social-media-fg-hover: #00C300;
 }
 
 .whatsapp :hover {
