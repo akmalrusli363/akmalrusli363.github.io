@@ -15,7 +15,7 @@
   margin: 1.4rem 0;
 }
 
-.error a {
+.error .buttons a {
   padding: 0.5rem 1rem;
   color: inherit;
   border: 2px solid white;
