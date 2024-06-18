@@ -123,18 +123,32 @@
         <!-- Twitter icon -->
         {% if site.twitter %}
         <span class="my-span-icon twitter">
-          <a href="https://twitter.com/{{ site.twitter.username }}" aria-label="{{ site.github.owner_name }}'s Twitter" title="{{ site.github.owner_name }}'s Twitter">
+          <a href="https://x.com/{{ site.twitter.username }}" aria-label="{{ site.github.owner_name }}'s X/Twitter" title="{{ site.github.owner_name }}'s X/Twitter">
+            <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" height="24" viewBox="0 0 256 256" fill-rule="evenodd" clip-rule="evenodd">
+              <g stroke-miterlimit="10" stroke-width="0">
+                <path d="m72 66 92 124h20L91 66z"/>
+                <path d="M128 1a126 126 0 1 0 0 253 126 126 0 0 0 0-253zm31 199-42-57-52 57H51l60-65-59-79h45l39 52 48-52h13l-55 60 62 84h-45z"/>
+              </g>
+            </svg>
+          </a>
+        </span>
+        {% endif %}
+
+        <!-- Instagram icon -->
+        {% if site.instagram %}
+        <span class="my-span-icon instagram">
+          <a href="https://instagram.com/{{ site.instagram.username }}" aria-label="{{ site.github.owner_name }}'s Instagram" title="{{ site.github.owner_name }}'s Instagram">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" />
+              <path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/>
             </svg>
           </a>
         </span>
         {% endif %}
 
         <!-- Telegram icon -->
+        {% if site.telegram %}
         <span class="my-span-icon telegram">
-          <a href="https://telegram.me/akmalrusli363" aria-label="{{ site.github.owner_name }}'s Telegram" title="{{ site.github.owner_name }}'s Telegram">
+          <a href="https://telegram.me/{{ site.telegram.username }}" aria-label="{{ site.github.owner_name }}'s Telegram" title="{{ site.github.owner_name }}'s Telegram">
             <svg class="my-svg-icon" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
               style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
               <path id="telegram-4"
@@ -142,16 +156,19 @@
               </svg>
           </a>
         </span>
+        {% endif %}
 
         <!-- LINE icon -->
+        {% if site.lineapp %}
         <span class="my-span-icon line-app">
-          <a href="line://ti/p/akmal_rusli" aria-label="{{ site.github.owner_name }}'s LINE" title="{{ site.github.owner_name }}'s LINE">
+          <a href="line://ti/p/{{ site.lineapp.username }}" aria-label="{{ site.github.owner_name }}'s LINE" title="{{ site.github.owner_name }}'s LINE">
             <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd">
               <path
                 d="M12 0c-6.626 0-12 5.372-12 12 0 6.627 5.374 12 12 12 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12zm7 11.681c0-3.133-3.14-5.681-7-5.681s-7 2.548-7 5.681c0 2.808 2.49 5.159 5.854 5.604.228.049.538.15.617.345.071.177.046.454.022.633l-.099.599c-.031.177-.141.692.606.378.747-.315 4.031-2.374 5.5-4.064 1.014-1.113 1.5-2.242 1.5-3.495zm-9.606 1.808h-1.961l-.095-.038-.001-.001-.003-.003-.038-.094v-3.05c0-.075.061-.136.137-.136h.491c.075 0 .136.061.136.136v2.422h1.334c.075.001.136.062.136.137v.491c0 .075-.061.136-.136.136zm7.275 0h-1.962l-.094-.038-.004-.004-.038-.094v-3.05l.038-.094.004-.004.094-.038h1.962c.075 0 .136.061.136.136v.491c0 .076-.061.137-.136.137h-1.334v.515h1.334c.075 0 .136.061.136.137v.491c0 .075-.061.136-.136.136h-1.334v.515h1.334c.075.001.136.062.136.137v.491c0 .075-.061.136-.136.136zm-6.091 0h-.491c-.076 0-.137-.061-.137-.136v-3.05c0-.075.061-.136.137-.136h.491c.075 0 .136.061.136.136v3.05c0 .075-.061.136-.136.136zm1.241 0h-.491c-.075 0-.137-.061-.137-.136v-3.05c0-.075.062-.136.137-.136h.491l.012.001.013.001.007.002.013.004.005.001.012.006.011.006.007.005.014.011.009.01.01.013 1.398 1.888v-1.812c0-.075.061-.136.136-.136h.491c.076 0 .137.061.137.136v3.05c0 .075-.061.136-.137.136h-.491l-.035-.004-.002-.001-.013-.004-.007-.003-.01-.005-.008-.006-.002-.001-.034-.033-1.4-1.89v1.811c0 .075-.061.136-.136.136z" />
               </svg>
           </a>
         </span>
+        {% endif %}
 
         <!-- Medium icon -->
         {% if site.medium %}

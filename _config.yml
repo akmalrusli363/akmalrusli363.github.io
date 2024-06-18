@@ -1,11 +1,17 @@
 theme:
 title: akmalrusli363
-description: BINUSIAN 2022 Computer Scientist
+description: A blog from BINUSIAN 2022 Computer Science Alumni
 image: /assets/opengraph.png
 
 twitter:
   username: akmal_rusli
+instagram:
+  username: akmalr363
 medium:
+  username: akmalrusli363
+lineapp:
+  username: akmal_rusli
+telegram:
   username: akmalrusli363
 linkedin:
   username: akmal-akmal-978189190

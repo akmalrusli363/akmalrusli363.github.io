@@ -49,7 +49,11 @@
 }
 
 .twitter :hover {
-  --social-media-fg-hover: #1DA1F2;
+  --social-media-fg-hover: #000000;
+}
+
+.instagram :hover {
+  --social-media-fg-hover: #E4405F;
 }
 
 .linkedin :hover {
