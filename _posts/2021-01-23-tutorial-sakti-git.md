@@ -178,7 +178,7 @@ git commit -m <pesan_commit>
 ```
 
 Contoh commit dengan pesan dari user:
-```
+```bash
 git commit -m "Revisi bab 3"
 ```
 
@@ -434,14 +434,14 @@ git stash apply <stash_id>
 
 ![Revert, Reset, Checkout, and Squash](/assets/resources/git-sakti/reset-checkout-revert-squash.png "Revert, Reset, Checkout, and Squash")
 
-| Command        | Scope        | Tujuan                                                                           |
-| -------------- | ------------ | -------------------------------------------------------------------------------- |
-| `git revert`   | Commit-level | Buat commit baru dengan mengembalikan isi file menjadi kondisi semula            |
-| `git revert`   | File-level   | -                                                                                |
-| `git reset`    | Commit-level | Buang commit dari branch, undo commit, timpa semua file (bila pakai `--hard`)    |
-| `git reset`    | File-level   | Unstage file (jarang, diganti dengan `git restore`)                              |
-| `git checkout` | Commit-level | Pindah branch, cek commit lama, cek reflog                                       |
-| `git checkout` | File-level   | Kembalikan kondisi file ke commit terbaru/tertentu di working directory |
+| Command        | Scope        | Tujuan                                                                        |
+| -------------- | ------------ | ----------------------------------------------------------------------------- |
+| `git revert`   | Commit-level | Buat commit baru dengan mengembalikan isi file menjadi kondisi semula         |
+| `git revert`   | File-level   | -                                                                             |
+| `git reset`    | Commit-level | Buang commit dari branch, undo commit, timpa semua file (bila pakai `--hard`) |
+| `git reset`    | File-level   | Unstage file (jarang, diganti dengan `git restore`)                           |
+| `git checkout` | Commit-level | Pindah branch, cek commit lama, cek reflog                                    |
+| `git checkout` | File-level   | Kembalikan kondisi file ke commit terbaru/tertentu di working directory       |
 
 **Revert, Reset, dan Checkout** digunakan apabila anda ingin melakukan *undo changes* atau terdapat masalah yang menyebabkan anda harus merevisi file yang dicommit maupun buang commit yang sudah terlanjur ter-commit.
 
@@ -469,19 +469,19 @@ git revert <commit_sha>
 >
 > Selain itu, anda juga harus mengetahui riwayat commit-commit yang dibuat sebelumnya dengan menggunakan `git log` atau `gitk` sebelum melakukan reset pada branch yang sedang anda gunakan saat ini.
 
-Untuk reset branch ke commit tertentu, gunakan `git reset` (alias defaultnya dari mixed reset, `git reset --mixed`) dimana ketika branch/pointer tersebut di-reset, maka file yang direset **tidak masuk ke staging index** namun keberadaan file tetap dipertahankan:
+Untuk reset branch ke commit tertentu, gunakan `git reset` (alias defaultnya dari mixed reset, `git reset --mixed`) dimana ketika branch/pointer tersebut di-reset, maka file yang direset **tidak masuk ke staging index**, melainkan file dari commit yang direset tetap dipertahankan:
 
 ```bash
-# Reset branch by set branch pointer (HEAD) to commit
+# Reset branch by set branch pointer (HEAD) to a commit
 # It also reset the staging index, but preserves it's working directory
 git reset <commit_sha>
 git reset --mixed <commit_sha> # Equivalent & default action for reset
 ```
 
-Atau jika anda hanya undo commit atau ingin digabungkan ke commit lain, gunakan `git reset --soft` dimana ketika branch/pointer tersebut di-reset, maka file yang direset **dimasukkan ke staging index** dan file tetap dipertahankan:
+Atau jika anda hanya undo commit atau ingin digabungkan ke commit lain, gunakan `git reset --soft` dimana ketika branch/pointer tersebut di-reset, maka file yang direset **dimasukkan ke staging index** dan file dari commit yang direset tetap dipertahankan:
 
 ```bash
-# Reset branch by set branch pointer (HEAD) to commit
+# Reset branch by set branch pointer (HEAD) to a commit
 # It keeps working directory & staging index
 git reset --soft <commit_sha>
 ```
@@ -490,10 +490,27 @@ Atau bila ingin full-reset branch ke commit tertentu, gunakan `git reset --hard`
 
 ```bash
 # VERY DANGEROUS!
-# Reset branch by set branch pointer (HEAD) to commit
+# Reset branch by set branch pointer (HEAD) to a commit
 # It immediately reset the staging index & overwrites file with files in that commit.
 git reset --hard <commit_sha>
 ```
+
+Sebaliknya, jika anda ingin undo commit, namun tetap mempertahankan file-file yang sedang dikerjakan, gunakan `git reset --keep` dimana ketika branch/pointer tersebut di-reset, maka **file-file dalam staging index & working directory** dibiarkan apa adanya, namun file dari commit tersebut akan mengikuti index yang direset:
+
+```bash
+# Reset branch by set branch pointer (HEAD) to a commit
+# It keeps working directory & staging index, but branch pointer shifted to referred commit
+git reset --keep <commit_sha>
+```
+
+Bingung dengan perintah `git reset`? Berikut adalah tabel perbandingan parameter `git reset`:
+
+|  Flag `git reset`   | **Commited changes** | **Staged changes** | **Unstaged changes** | Tujuan  |
+| ------------------- | :------------------: | :----------------: | :------------------: | ------- |
+| `--soft`            |       staging        |      staging       |  working directory   | Gabung beberapa commit dengan kerjaan yang siap di-commit |
+| `--mixed` (default) |  working directory   | working directory  |  working directory   | Koreksi beberapa commit  |
+| `--hard`            |         ---          |        ---         |         ---          | Pindah commit, buang semua file yang diedit |
+| `--keep`            |         ---          |      staging       |  working directory   | Buang commit yang ada "aib-nya" |
 
 Ada baiknya untuk **berhati-hati** dengan `git reset` karena perintah ini tentunya akan **mengubah branch history/log** dan mengakibatkan *push* ke remote branch **ditolak karena ketidaksamaan branch history/log!**
 

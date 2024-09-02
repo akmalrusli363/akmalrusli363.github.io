@@ -236,6 +236,15 @@
 
   <script type="text/javascript" src="{{ '/assets/script/dark-switch.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
+  <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "default",
+    });
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  </script>
+
 </body>
 
 </html>
