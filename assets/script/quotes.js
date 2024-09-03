@@ -178,7 +178,24 @@ var arr = [
   "Hubungi admin jika kalian menemukan link/web judi online, kami gak bertanggungjawab atas keberadaan situs judi online di blog orang",
   "PROMO SLOT BONUS MAXWIN UP TO 10 JUTA!<br><i>Catatan: kami gak tanggungjawab atas tindakan judi online kalian ya</i>",
   "BONUS DEPOSIT 200% DIJAMIN GACOR",
-  "Shikanoko Nokonoko Koshitantan<br><img src=\"https://i.kym-cdn.com/photos/images/newsfeed/002/828/461/7db.gif\" alt=\"Shikanoko Nokonoko Koshitantan\" width=\"auto\" height=\"100\" />"
+  "Shikanoko Nokonoko Koshitantan<br><img src=\"https://i.kym-cdn.com/photos/images/newsfeed/002/828/461/7db.gif\" alt=\"Shikanoko Nokonoko Koshitantan\" width=\"auto\" height=\"100\" />",
+  "Makanya langganan Netflix!",
+  "MENYALAA ABANGKUHH 🔥🔥🔥",
+  "MENYALA ABANGKU!!! 🔥🔥🔥",
+  "MENYALA ABANGKU!!!",
+  "MENYALA! 🔥🔥🔥",
+  "🔥🔥🔥",
+  "<img src=\"/assets/resources/menyala-abangkuh.jpg\" alt=\"MENYALAA ABANGKUHH!\" width=\"auto\" height=\"100\" /><br>🔥🔥🔥",
+  "YAHAHAHA 🤣",
+  "AWOKWOKWOK",
+  "WKWKWK",
+  "Absen 😅☝",
+  "bodo amat",
+  "mama aku takut :((",
+  "mamah aku takut 😭",
+  "mom come pick me up<br>I'm scared",
+  "Bilangin sama yang nulis blog ini, makasih udah sediain easter egg buat kita :v",
+  "Back to previous page or draw 25<br><img src=\"/assets/resources/draw-25-easter-egg.jpg\" alt=\"Back to previous page or draw 25\" width=\"auto\" height=\"100\" />",
 ];
 
 backgroundGacha();
