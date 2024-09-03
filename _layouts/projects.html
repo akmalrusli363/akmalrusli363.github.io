@@ -3,8 +3,20 @@ layout: page
 ---
 <article>
 {% assign projects = site.projects | sort:"date" %}
+
+<h2>Project List</h2>
+<ul>
+  {% for project in site.projects reversed %}
+    <li>
+      <a href="#{{ project.title | strip_html | slugify }}">
+        {{ project.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
 {% for project in site.projects reversed %}
-  <h2>{{ project.title }}</h2>
+  <h2 id="{{project.title | strip_html | slugify}}">{{ project.title }}</h2>
   {% if project.category %}
     <blockquote>
       <p>Category: <i>{{ project.category }}</i></p>
