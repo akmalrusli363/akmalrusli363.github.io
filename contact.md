@@ -63,6 +63,7 @@ Let you know more with me with my social media account/partner site below:
   {% endif %}
 
   <!-- Telegram icon -->
+  {% if site.telegram %}
   <span class="social-media telegram tooltip">
     <a href="https://telegram.me/akmalrusli363" aria-label="{{ site.github.owner_name }}'s Telegram" title="{{ site.github.owner_name }}'s Telegram">
       <span class="tooltiptext">Telegram</span>
@@ -73,8 +74,10 @@ Let you know more with me with my social media account/partner site below:
         </svg>
     </a>
   </span>
+  {% endif %}
 
   <!-- LINE icon -->
+  {% if site.lineapp %}
   <span class="social-media line-app tooltip">
     <a href="line://ti/p/akmal_rusli" aria-label="{{ site.github.owner_name }}'s LINE" title="{{ site.github.owner_name }}'s LINE">
       <span class="tooltiptext">LINE</span>
@@ -84,6 +87,7 @@ Let you know more with me with my social media account/partner site below:
         </svg>
     </a>
   </span>
+  {% endif %}
 
   <!-- Medium icon -->
   {% if site.medium %}
